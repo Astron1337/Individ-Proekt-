@@ -1,0 +1,25 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>Лабиринт с таблицей рекордов</title>  
+<link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+    <canvas id="mazeCanvas" width="400" height="400"></canvas>  
+    <div id="leaderboard">  
+        <h2>Таблица рекордов</h2>  
+        <table id="leaderboardTable">  
+            <tr>  
+                <th>Имя</th>  
+                <th>Время</th>  
+            </tr>  
+        </table>  
+    </div> 
+	<img id="fullscreenImage" src="https://kartinki.pics/uploads/posts/2021-03/1616104429_41-p-skrimer-art-kartinki-41.jpg" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 999; display: none;">
+    <div id="timer"></div> <!-- Этот элемент будет отображать время -->  
+    <input type="text" id="playerNameInput" placeholder="Enter your name">  
+    <script src="script.js"></script>  
+</body>  
+</html>

@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+canvas {
+    border: 2px solid black;
+}
+
+#leaderboard {
+    margin-top: 10px;
+}
+
+#leaderboardTable {
+    border-collapse: collapse;
+}
+
+#leaderboardTable th,
+#leaderboardTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
